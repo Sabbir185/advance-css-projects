@@ -31,6 +31,10 @@ body {
   clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
 }
 
+.logo {
+  height: 6rem;
+  padding-right: 1rem;
+}
 .logo-container {
   display: flex;
   align-items: center;
@@ -39,22 +43,8 @@ body {
   top: 4rem;
   left: 4rem;
 }
-
-.logo {
-  height: 6rem;
-  padding-right: 1rem;
-}
-
 .logo-title {
   font-size: 1.8rem;
-}
-
-.header-primary-container {
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
 }
 
 .header-primary {
@@ -64,7 +54,13 @@ body {
   backface-visibility: hidden;
   margin-bottom: 5rem;
 }
-
+.header-primary-container {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
 .header-primary-main {
   font-size: 3.5rem;
   font-weight: 700;
@@ -76,7 +72,6 @@ body {
   /* animation-delay: 1s;
   animation-iteration-count: 3; */
 }
-
 .header-primary-sub {
   display: block;
   font-size: 1.6rem;
