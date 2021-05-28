@@ -1,0 +1,17 @@
+.logo {
+    height: 6rem;
+    padding-right: 1rem;
+
+    &-container {
+        display: flex;
+        align-items: center;
+        color: rgba($color-white, 0.89);
+        position: absolute;
+        top: 4rem;
+        left: 4rem;
+    }
+
+    &-title {
+        font-size: 1.8rem;
+    }
+}
